@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+nav{
+    height: 80px;
+    background-color: #0065c3;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-main{
+    height: 80px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-main .left img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    margin-left: 64px;
+}
+
+.nav-main .left img:hover{
+    transform: rotate(360deg);
+    transition: 0.25s ease-in-out;
+}
+
+.nav-main .left {
+    display: flex;
+}
+
+.nav-main .left .txt{
+    margin-top: 30px;
+}
+
+.nav-main .left a{
+    font-size: 14px;
+    margin-left: 44px;
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+
+.nav-main .right button{
+    padding: 5.6px 25.9px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    font-weight: 550;
+    color: white;
+    margin-top: 24px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner1{
+    height: 680px;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ban1{
+    width: 90%;
+    margin: auto;
+    height: 680px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ban1 .left img{
+    width: 743px;
+    height: 520px;
+    margin-top: 160px;
+}
+
+.ban1 .left{
+    width: 40%;
+}
+
+.ban1 .right img{
+    width: 548px;
+    height: 266px;
+    margin-top: 160px;
+}
+
+.ban1 .right{
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+.ban1 .right .txt{
+    width: 64%;
+    margin: auto;
+    font-size: 11.2px;
+    color: white;
+}
+
+.ban1 .right .txt button{
+    margin: 48px 0px;
+    padding: 6px 30px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    font-weight: 550;
+    color: white;
+}
+
+.banner2{
+    height: 600px;
+    background-color: #000000;
+}
+
+.ban2{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.ban2 .left{
+    width: 50%;
+}
+
+.ban2 .left img{
+   height: 600px;
+
+}
+
+.ban2.right{
+    width: 50%;
+}
+
+.ban2 .right img{
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 35px;
+
+}
+
+.banner3 img{
+    height: 674px ;
+}
+
+.banner4 img{
+    height: 614px ;
+    margin-top: -4px;
+}
+
+.banner5 img{
+    height: 533px ;
+    margin-top: -4px;
+}
+
+.banner6 video{
+    height: 856px;
+    margin-top: -4px;
+}
+
+.banner7 img{
+    height: 745px ;
+    margin-top: -4px;
+}
